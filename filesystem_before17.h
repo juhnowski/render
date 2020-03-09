@@ -10,8 +10,9 @@
 #include <unistd.h>
 #include <string>
 
-inline bool exists(const std::string& filename) {
+inline bool exists(const std::string &filename) {
     struct stat buffer;
-    return (stat (filename.c_str(), &buffer) == 0);
+    return (stat(filename.c_str(), &buffer) == 0);
 }
+
 #endif //RENDER_FILESYSTEM_BEFORE17_H

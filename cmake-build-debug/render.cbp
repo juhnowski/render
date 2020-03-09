@@ -84,7 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ilya/CLionProjects/render/cmake-build-debug/filesystem_before17.h">
+		<Unit filename="/home/ilya/CLionProjects/render/Settings.cpp">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/Settings.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/filesystem_before17.h">
 			<Option target="render"/>
 		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/render/ini.h">
@@ -97,6 +103,12 @@
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/render/configure.ini">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/ffmpeg.tsh">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/gstreamer.tsh">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

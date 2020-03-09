@@ -12,6 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
   "../configure.ini"
+  "../ffmpeg.tsh"
+  "../gstreamer.tsh"
   "/home/ilya/clion-2019.3.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCInformation.cmake"
   "/home/ilya/clion-2019.3.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXInformation.cmake"
   "/home/ilya/clion-2019.3.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -45,6 +47,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "configure.ini"
+  "ffmpeg.tsh"
+  "gstreamer.tsh"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

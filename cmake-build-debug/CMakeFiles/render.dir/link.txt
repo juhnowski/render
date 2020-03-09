@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/render.dir/main.cpp.o  -o render 
+/usr/bin/c++  -g   CMakeFiles/render.dir/main.cpp.o CMakeFiles/render.dir/Settings.cpp.o  -o render 

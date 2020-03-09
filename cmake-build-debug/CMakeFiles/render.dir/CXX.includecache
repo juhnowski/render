@@ -6,9 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/ilya/CLionProjects/render/main.cpp
+/home/ilya/CLionProjects/render/Settings.cpp
+Settings.h
+/home/ilya/CLionProjects/render/Settings.h
 iostream
 -
-filesystem
+fstream
+-
+ini.h
+/home/ilya/CLionProjects/render/ini.h
+
+/home/ilya/CLionProjects/render/Settings.h
+string
+-
+iostream
+-
+
+/home/ilya/CLionProjects/render/ini.h
+cstring
+-
+string
+-
+iostream
+-
+list
+-
+map
+-
+algorithm
+-
+functional
+-
+cctype
+-
+sstream
 -
 

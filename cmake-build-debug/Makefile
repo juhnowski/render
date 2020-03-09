@@ -123,6 +123,33 @@ render/fast:
 	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/build
 .PHONY : render/fast
 
+Settings.o: Settings.cpp.o
+
+.PHONY : Settings.o
+
+# target to build an object file
+Settings.cpp.o:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/Settings.cpp.o
+.PHONY : Settings.cpp.o
+
+Settings.i: Settings.cpp.i
+
+.PHONY : Settings.i
+
+# target to preprocess a source file
+Settings.cpp.i:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/Settings.cpp.i
+.PHONY : Settings.cpp.i
+
+Settings.s: Settings.cpp.s
+
+.PHONY : Settings.s
+
+# target to generate assembly for a file
+Settings.cpp.s:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/Settings.cpp.s
+.PHONY : Settings.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... render"
 	@echo "... edit_cache"
+	@echo "... Settings.o"
+	@echo "... Settings.i"
+	@echo "... Settings.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
