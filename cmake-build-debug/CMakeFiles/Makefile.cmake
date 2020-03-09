@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../configure.ini"
   "../ffmpeg.tsh"
   "../gstreamer.tsh"
+  "../logging.conf"
   "/home/ilya/clion-2019.3.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCInformation.cmake"
   "/home/ilya/clion-2019.3.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCXXInformation.cmake"
   "/home/ilya/clion-2019.3.4/bin/cmake/linux/share/cmake-3.15/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -49,6 +50,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "configure.ini"
   "ffmpeg.tsh"
   "gstreamer.tsh"
+  "logging.conf"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

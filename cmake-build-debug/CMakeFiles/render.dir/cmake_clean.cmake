@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/render.dir/Settings.cpp.o"
+  "CMakeFiles/render.dir/easylogging++.cc.o"
   "CMakeFiles/render.dir/main.cpp.o"
   "render"
   "render.pdb"

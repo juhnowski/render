@@ -90,6 +90,12 @@
 		<Unit filename="/home/ilya/CLionProjects/render/Settings.h">
 			<Option target="render"/>
 		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/easylogging++.cc">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/easylogging++.h">
+			<Option target="render"/>
+		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/render/filesystem_before17.h">
 			<Option target="render"/>
 		</Unit>
@@ -109,6 +115,9 @@
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/render/gstreamer.tsh">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/logging.conf">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

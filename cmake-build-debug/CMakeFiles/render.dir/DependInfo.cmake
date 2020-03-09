@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ilya/CLionProjects/render/Settings.cpp" "/home/ilya/CLionProjects/render/cmake-build-debug/CMakeFiles/render.dir/Settings.cpp.o"
+  "/home/ilya/CLionProjects/render/easylogging++.cc" "/home/ilya/CLionProjects/render/cmake-build-debug/CMakeFiles/render.dir/easylogging++.cc.o"
   "/home/ilya/CLionProjects/render/main.cpp" "/home/ilya/CLionProjects/render/cmake-build-debug/CMakeFiles/render.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

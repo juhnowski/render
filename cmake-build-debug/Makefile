@@ -150,6 +150,33 @@ Settings.cpp.s:
 	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/Settings.cpp.s
 .PHONY : Settings.cpp.s
 
+easylogging++.o: easylogging++.cc.o
+
+.PHONY : easylogging++.o
+
+# target to build an object file
+easylogging++.cc.o:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/easylogging++.cc.o
+.PHONY : easylogging++.cc.o
+
+easylogging++.i: easylogging++.cc.i
+
+.PHONY : easylogging++.i
+
+# target to preprocess a source file
+easylogging++.cc.i:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/easylogging++.cc.i
+.PHONY : easylogging++.cc.i
+
+easylogging++.s: easylogging++.cc.s
+
+.PHONY : easylogging++.s
+
+# target to generate assembly for a file
+easylogging++.cc.s:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/easylogging++.cc.s
+.PHONY : easylogging++.cc.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Settings.o"
 	@echo "... Settings.i"
 	@echo "... Settings.s"
+	@echo "... easylogging++.o"
+	@echo "... easylogging++.i"
+	@echo "... easylogging++.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
