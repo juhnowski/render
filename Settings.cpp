@@ -6,16 +6,15 @@
 #include <iostream>
 #include <fstream>
 #include "ini.h"
+#include "easylogging++.h"
 
 using namespace std;
 
 void Settings::parse(const string &ini_filename) {
-    cout << "Settings::parse start" << endl;
+
     ini::Ini<char> ini;
     ifstream is(ini_filename);
     ini.parse(is);
-    cout << "raw ini file:" << endl;
-    ini.generate(cout);
 
     ini::extract(ini.sections["common"]["Log"], log);
     ini::extract(ini.sections["common"]["WorkDir"], work_dir);

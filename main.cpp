@@ -29,6 +29,11 @@ int main(int argc, char **argv) {
     Settings *settings = new Settings();
     settings->parse(ini_filename);
 
+    if (!exists(settings->log)) {
+        LOG(ERROR) << "Render did not start. File " << settings->log << " does not exist." << endl;
+        return 1;
+    }
+
     el::Configurations conf(settings->log);
     el::Loggers::reconfigureAllLoggers(conf);
 

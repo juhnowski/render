@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/ilya/CLionProjects/render/Settings.cpp
+Settings.h
+/home/ilya/CLionProjects/render/Settings.h
+iostream
+-
+fstream
+-
+ini.h
+/home/ilya/CLionProjects/render/ini.h
+easylogging++.h
+/home/ilya/CLionProjects/render/easylogging++.h
+
 /home/ilya/CLionProjects/render/Settings.h
 string
 -
@@ -152,21 +164,23 @@ boost/container/flat_set.hpp
 wx/vector.h
 -
 
-/home/ilya/CLionProjects/render/filesystem_before17.h
-sys/stat.h
--
-unistd.h
+/home/ilya/CLionProjects/render/ini.h
+cstring
 -
 string
 -
-
-/home/ilya/CLionProjects/render/main.cpp
 iostream
 -
-filesystem_before17.h
-/home/ilya/CLionProjects/render/filesystem_before17.h
-Settings.h
-/home/ilya/CLionProjects/render/Settings.h
-easylogging++.h
-/home/ilya/CLionProjects/render/easylogging++.h
+list
+-
+map
+-
+algorithm
+-
+functional
+-
+cctype
+-
+sstream
+-
 
