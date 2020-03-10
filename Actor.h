@@ -24,8 +24,12 @@ public:
 
 private:
     Settings *settings;
-    int pid;
+    pid_t pid;
     string cmd;
+
+    int system();
+
+    void thread_function();
 };
 
 

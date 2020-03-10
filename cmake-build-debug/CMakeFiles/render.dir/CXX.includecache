@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/ilya/CLionProjects/render/Actor.cpp
-Actor.h
-/home/ilya/CLionProjects/render/Actor.h
-before17.h
-/home/ilya/CLionProjects/render/before17.h
-easylogging++.h
-/home/ilya/CLionProjects/render/easylogging++.h
-fmt/core.h
-/home/ilya/CLionProjects/render/fmt/core.h
-constants.h
-/home/ilya/CLionProjects/render/constants.h
-
 /home/ilya/CLionProjects/render/Actor.h
 string
 -
@@ -27,18 +15,6 @@ iostream
 -
 unordered_map
 -
-
-/home/ilya/CLionProjects/render/Settings.cpp
-Settings.h
-/home/ilya/CLionProjects/render/Settings.h
-iostream
--
-fstream
--
-ini.h
-/home/ilya/CLionProjects/render/ini.h
-easylogging++.h
-/home/ilya/CLionProjects/render/easylogging++.h
 
 /home/ilya/CLionProjects/render/Settings.h
 string
@@ -56,10 +32,6 @@ string
 stdarg.h
 -
 memory
--
-
-/home/ilya/CLionProjects/render/constants.h
-string
 -
 
 /home/ilya/CLionProjects/render/easylogging++.h
@@ -200,44 +172,6 @@ boost/container/set.hpp
 boost/container/flat_set.hpp
 -
 wx/vector.h
--
-
-/home/ilya/CLionProjects/render/fmt/core.h
-cstdio
--
-cstring
--
-iterator
--
-string
--
-type_traits
--
-string_view
--
-experimental/string_view
--
-fmt/core.h
--
-
-/home/ilya/CLionProjects/render/ini.h
-cstring
--
-string
--
-iostream
--
-list
--
-map
--
-algorithm
--
-functional
--
-cctype
--
-sstream
 -
 
 /home/ilya/CLionProjects/render/main.cpp

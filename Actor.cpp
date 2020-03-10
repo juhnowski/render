@@ -7,6 +7,10 @@
 #include "easylogging++.h"
 #include "fmt/core.h"
 #include "constants.h"
+#include <unistd.h>
+#include <sys/wait.h>
+#include <sys/types.h>
+#include <thread>
 
 Actor::Actor(Settings *settings) {
     this->settings = settings;
@@ -47,9 +51,34 @@ int Actor::prepare() {
 }
 
 int Actor::start() {
+    thread t(&Actor::thread_function, this);
+    LOG(DEBUG) << "Renderer started";
+    t.join();
     return 0;
 };
 
 int Actor::stop() {
     return 0;
 };
+
+void Actor::thread_function() {
+    LOG(DEBUG) << this->system();
+}
+
+int Actor::system() {
+    int status;
+
+    switch (this->pid = fork()) {
+        case -1:
+            return -1;
+        case 0:
+            LOG(DEBUG) << "Render start process, pid=" << this->pid;
+            execl("/bin/sh", this->cmd.c_str(), (char *) NULL);
+            _exit(127);
+        default:
+            if (waitpid(this->pid, &status, 0) == -1)
+                return -1;
+            else
+                return status;
+    }
+}
