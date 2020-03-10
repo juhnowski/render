@@ -123,6 +123,33 @@ render/fast:
 	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/build
 .PHONY : render/fast
 
+Actor.o: Actor.cpp.o
+
+.PHONY : Actor.o
+
+# target to build an object file
+Actor.cpp.o:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/Actor.cpp.o
+.PHONY : Actor.cpp.o
+
+Actor.i: Actor.cpp.i
+
+.PHONY : Actor.i
+
+# target to preprocess a source file
+Actor.cpp.i:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/Actor.cpp.i
+.PHONY : Actor.cpp.i
+
+Actor.s: Actor.cpp.s
+
+.PHONY : Actor.s
+
+# target to generate assembly for a file
+Actor.cpp.s:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/Actor.cpp.s
+.PHONY : Actor.cpp.s
+
 Settings.o: Settings.cpp.o
 
 .PHONY : Settings.o
@@ -177,6 +204,33 @@ easylogging++.cc.s:
 	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/easylogging++.cc.s
 .PHONY : easylogging++.cc.s
 
+format.o: format.cc.o
+
+.PHONY : format.o
+
+# target to build an object file
+format.cc.o:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/format.cc.o
+.PHONY : format.cc.o
+
+format.i: format.cc.i
+
+.PHONY : format.i
+
+# target to preprocess a source file
+format.cc.i:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/format.cc.i
+.PHONY : format.cc.i
+
+format.s: format.cc.s
+
+.PHONY : format.s
+
+# target to generate assembly for a file
+format.cc.s:
+	$(MAKE) -f CMakeFiles/render.dir/build.make CMakeFiles/render.dir/format.cc.s
+.PHONY : format.cc.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -213,12 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... render"
 	@echo "... edit_cache"
+	@echo "... Actor.o"
+	@echo "... Actor.i"
+	@echo "... Actor.s"
 	@echo "... Settings.o"
 	@echo "... Settings.i"
 	@echo "... Settings.s"
 	@echo "... easylogging++.o"
 	@echo "... easylogging++.i"
 	@echo "... easylogging++.s"
+	@echo "... format.o"
+	@echo "... format.i"
+	@echo "... format.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

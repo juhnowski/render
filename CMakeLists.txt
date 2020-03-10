@@ -3,7 +3,8 @@ project(render)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(render main.cpp ini.h filesystem_before17.h Settings.cpp Settings.h easylogging++.h easylogging++.cc)
+add_executable(render main.cpp ini.h before17.h Settings.cpp Settings.h easylogging++.h easylogging++.cc Actor.cpp Actor.h fmt/core.h fmt/chrono.h fmt/color.h fmt/compile.h fmt/core.h fmt/format.h fmt/format-inl.h fmt/locale.h fmt/ostream.h fmt/posix.h fmt/printf.h fmt/ranges.h
+        format.cc constants.h)
 
 configure_file(configure.ini configure.ini COPYONLY)
 configure_file(ffmpeg.tsh ffmpeg.tsh COPYONLY)

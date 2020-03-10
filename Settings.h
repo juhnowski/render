@@ -21,7 +21,9 @@ public:
 
     string rtmp_url;
 
+    string script_type;
     string script_file;
+
 
     void parse(const string &ini_filename);
 
@@ -35,6 +37,7 @@ public:
                 << "\t\trtp_video_port=" << s.rtp_video_port << endl
                 << "\t\trtmp_url=" << s.rtmp_url << endl
                 << "\t\tscript_file=" << s.script_file << endl
+                << "\t\tscript_type=" << s.script_type << endl
                 << "\t]" << endl
                 << endl;
     }

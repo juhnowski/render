@@ -22,5 +22,6 @@ void Settings::parse(const string &ini_filename) {
     ini::extract(ini.sections["rtp.audio"]["port"], rtp_audio_port);
     ini::extract(ini.sections["rtp.video"]["port"], rtp_video_port);
     ini::extract(ini.sections["rtmp"]["url"], rtmp_url);
+    ini::extract(ini.sections["script"]["type"], script_type);
     ini::extract(ini.sections["script"]["file"], script_file);
 }

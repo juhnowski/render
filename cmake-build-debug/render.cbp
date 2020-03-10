@@ -84,10 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ilya/CLionProjects/render/Actor.cpp">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/Actor.h">
+			<Option target="render"/>
+		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/render/Settings.cpp">
 			<Option target="render"/>
 		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/render/Settings.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/before17.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/constants.h">
 			<Option target="render"/>
 		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/render/easylogging++.cc">
@@ -96,7 +108,40 @@
 		<Unit filename="/home/ilya/CLionProjects/render/easylogging++.h">
 			<Option target="render"/>
 		</Unit>
-		<Unit filename="/home/ilya/CLionProjects/render/filesystem_before17.h">
+		<Unit filename="/home/ilya/CLionProjects/render/fmt/chrono.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/fmt/color.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/fmt/compile.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/fmt/core.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/fmt/format-inl.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/fmt/format.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/fmt/locale.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/fmt/ostream.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/fmt/posix.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/fmt/printf.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/fmt/ranges.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/format.cc">
 			<Option target="render"/>
 		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/render/ini.h">

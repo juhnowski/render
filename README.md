@@ -4,33 +4,32 @@ Render
 
 # Настройки
 Все настройки лежат в configure.ini
-```[common]``` 
+## ```[common]``` - общие настройки 
 
-```Log = logging.conf``` - логгирование настраивается отдельным конфигурационным файлом.
+- ```Log = logging.conf``` - логгирование настраивается отдельным конфигурационным файлом.
 [Описание формат файла](https://github.com/amrayn/easyloggingpp) 
  
-```WorkDir = /tmp``` - рабочий каталог
+- ```WorkDir = /tmp``` - рабочий каталог
 
-[rtp]
-sdp = test.sdp
-; используется в ffmpeg.tsh
+## ```[rtp]``` - настройки входящего потока в формате RTP
+- ```sdp = test.sdp``` SDP файл потока, используется только в ffmpeg.tsh
 
-[rtp.audio]
-port = 11111
-; используется в gstreamer.tsh
+### ```[rtp.audio]``` - настройки входящего аудио RTP потока 
+- ```port = 11111``` - порт входящего аудио RTP потока, используется в gstreamer.tsh
 
-[rtp.video]
-port = 11111
-; используется в gstreamer.tsh
+### ```[rtp.video]``` - настройки входящего видео RTP потока
+- ```port = 11111``` - порт входящего видео RTP потока, используется в gstreamer.tsh
 
-[rtmp]
-url = rtmp://gpu3.view.me/live/obsl-test32
+## ```[rtmp]``` - настройки исходящего RTMP потока
+- ```url = rtmp://gpu3.view.me/live/obsl-test32``` - url сервера: на который отдаем RTMP поток
 
-[script]
-file = gstreamer.tsh
-;file=ffmpeg.tsh
+## ```[script]``` - shell шаблон для конвертации
+- ```type = GSTREAMER``` - тип коныертации. Доступно два значения: GSTREAMER и FFMPEG
+- ```file = gstreamer.tsh``` - файл шаблона, в наличии gstreamer.tsh и ffmpeg.tsh
+
 
 # Логирование
 Конфигурационный файл для логов указывается в секции common параметр Log.
 До того как будет прочтен файл конфигурации, логирование по умолчанию производится 
 в /var/log/syslog
+Файлы предварительно должны быть созданы и пользователю должны быть даны права доступа на запись.

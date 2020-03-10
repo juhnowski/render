@@ -1,7 +1,8 @@
 #include <iostream>
-#include "filesystem_before17.h"
+#include "before17.h"
 #include "Settings.h"
 #include "easylogging++.h"
+#include "Actor.h"
 
 using namespace std;
 
@@ -40,6 +41,11 @@ int main(int argc, char **argv) {
     LOG(INFO) << "Render started";
     LOG(DEBUG) << *settings;
 
+    Actor actor(settings);
+    if (actor.prepare()) {
+        LOG(INFO) << "Render terminated";
+        return 1;
+    }
 
     return 0;
 }

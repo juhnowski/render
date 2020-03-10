@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/render.dir/main.cpp.o CMakeFiles/render.dir/Settings.cpp.o CMakeFiles/render.dir/easylogging++.cc.o  -o render 
+/usr/bin/c++  -g   CMakeFiles/render.dir/main.cpp.o CMakeFiles/render.dir/Settings.cpp.o CMakeFiles/render.dir/easylogging++.cc.o CMakeFiles/render.dir/Actor.cpp.o CMakeFiles/render.dir/format.cc.o  -o render 
