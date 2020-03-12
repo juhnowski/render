@@ -24,7 +24,10 @@ Render
 - ```url = rtmp://gpu3.view.me/live/obsl-test32``` - url сервера: на который отдаем RTMP поток
 
 ## ```[script]``` - shell шаблон для конвертации
-- ```type = GSTREAMER``` - тип коныертации. Доступно два значения: GSTREAMER и FFMPEG
+- ```type = GSTREAMER``` - тип коныертации. Доступны значения: 
+1.GSTREAMER
+1.FFMPEG
+1.TEST - выполняется как есть, без подстановки параметров
 - ```file = gstreamer.tsh``` - файл шаблона, в наличии gstreamer.tsh и ffmpeg.tsh
 
 
