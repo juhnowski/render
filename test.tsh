@@ -1,0 +1,5 @@
+ffmpeg  \
+   -loglevel debug \
+   -protocol_whitelist file,udp,rtp  \
+   -i test.sdp \
+   -f flv rtmp://gpu3.view.me/live/test890

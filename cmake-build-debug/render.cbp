@@ -165,5 +165,11 @@
 		<Unit filename="/home/ilya/CLionProjects/render/logging.conf">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/test.sdp">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/render/test.tsh">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
 	</Project>
 </CodeBlocks_project_file>

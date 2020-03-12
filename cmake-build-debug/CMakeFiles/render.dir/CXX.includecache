@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/home/ilya/CLionProjects/render/Actor.cpp
+Actor.h
+/home/ilya/CLionProjects/render/Actor.h
+before17.h
+/home/ilya/CLionProjects/render/before17.h
+easylogging++.h
+/home/ilya/CLionProjects/render/easylogging++.h
+fmt/core.h
+/home/ilya/CLionProjects/render/fmt/core.h
+constants.h
+/home/ilya/CLionProjects/render/constants.h
+unistd.h
+-
+sys/wait.h
+-
+sys/types.h
+-
+thread
+-
+
 /home/ilya/CLionProjects/render/Actor.h
 string
 -
@@ -32,6 +52,10 @@ string
 stdarg.h
 -
 memory
+-
+
+/home/ilya/CLionProjects/render/constants.h
+string
 -
 
 /home/ilya/CLionProjects/render/easylogging++.h
@@ -174,15 +198,21 @@ boost/container/flat_set.hpp
 wx/vector.h
 -
 
-/home/ilya/CLionProjects/render/main.cpp
-iostream
+/home/ilya/CLionProjects/render/fmt/core.h
+cstdio
 -
-before17.h
-/home/ilya/CLionProjects/render/before17.h
-Settings.h
-/home/ilya/CLionProjects/render/Settings.h
-easylogging++.h
-/home/ilya/CLionProjects/render/easylogging++.h
-Actor.h
-/home/ilya/CLionProjects/render/Actor.h
+cstring
+-
+iterator
+-
+string
+-
+type_traits
+-
+string_view
+-
+experimental/string_view
+-
+fmt/core.h
+-
 

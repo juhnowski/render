@@ -47,9 +47,7 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    //actor.start();
-    LOG(INFO) << "Render terminated.Uncomment actor.start()";
-    return -1;
+    actor.start();
 
     return 0;
 }

@@ -27,9 +27,9 @@ private:
     pid_t pid;
     string cmd;
 
-    int system();
-
     void thread_function();
+
+    int system_start();
 };
 
 

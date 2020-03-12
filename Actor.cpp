@@ -41,6 +41,8 @@ int Actor::prepare() {
                 settings->rtp_video_port,
                 settings->rtmp_url
         );
+    } else if (settings->script_type.compare(ACTION_TEST) == 0) {
+        this->cmd = sh_template.str();
     } else {
         LOG(ERROR) << "Render did not start. Unsupported script type:" << settings->script_type;
         return 1;
@@ -51,30 +53,24 @@ int Actor::prepare() {
 }
 
 int Actor::start() {
-    thread t(&Actor::thread_function, this);
-    LOG(DEBUG) << "Renderer started";
-    t.join();
-    return 0;
+//    thread t(&Actor::thread_function, this);
+//    LOG(DEBUG) << "Renderer started";
+//    t.join();
+    return this->system_start();
 };
 
 int Actor::stop() {
     return 0;
 };
 
-void Actor::thread_function() {
-    LOG(DEBUG) << this->system();
-}
-
-int Actor::system() {
+int Actor::system_start() {
     int status;
 
     switch (this->pid = fork()) {
         case -1:
             return -1;
         case 0:
-            LOG(DEBUG) << "Render start process, pid=" << this->pid;
-            execl("/bin/sh", this->cmd.c_str(), (char *) NULL);
-            _exit(127);
+            system(this->cmd.c_str());
         default:
             if (waitpid(this->pid, &status, 0) == -1)
                 return -1;

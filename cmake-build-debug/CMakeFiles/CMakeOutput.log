@@ -463,3 +463,31 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ilya/CLionProjects/render/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7a0ec/fast && /usr/bin/make -f CMakeFiles/cmTC_7a0ec.dir/build.make CMakeFiles/cmTC_7a0ec.dir/build
+make[1]: Entering directory '/home/ilya/CLionProjects/render/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a0ec.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7a0ec.dir/CheckIncludeFile.c.o   -c /home/ilya/CLionProjects/render/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7a0ec
+/home/ilya/clion-2019.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a0ec.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7a0ec.dir/CheckIncludeFile.c.o  -o cmTC_7a0ec 
+make[1]: Leaving directory '/home/ilya/CLionProjects/render/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/ilya/CLionProjects/render/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f861c/fast && /usr/bin/make -f CMakeFiles/cmTC_f861c.dir/build.make CMakeFiles/cmTC_f861c.dir/build
+make[1]: Entering directory '/home/ilya/CLionProjects/render/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f861c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f861c.dir/CheckFunctionExists.c.o   -c /home/ilya/clion-2019.3.4/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f861c
+/home/ilya/clion-2019.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f861c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f861c.dir/CheckFunctionExists.c.o  -o cmTC_f861c -lpthread 
+make[1]: Leaving directory '/home/ilya/CLionProjects/render/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
